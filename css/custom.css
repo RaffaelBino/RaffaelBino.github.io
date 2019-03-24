@@ -22,7 +22,7 @@ html, body {
 /* Nav */
 /* Menu */
 .navbar {
-    background: url("../img/chalkboard.jpg");
+    background: url("../img/shattered-island.png");
     transition: background 0.5s linear;
 }
 
@@ -54,5 +54,5 @@ html, body {
 }
 
 .home{
-    background-image: url("../img/shattered-island\(virado\).png");
+    background-image: url("../img/shattered-island\(branco\).png");
 }
