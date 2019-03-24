@@ -22,9 +22,7 @@ html, body {
 /* Nav */
 /* Menu */
 .navbar {
-    background: #0f2027; /* fallback for old browsers */
-    background: -webkit-linear-gradient(to left, #0f2027, #203a43, #2c5364, #203a43,#0f2027); /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to left, #0f2027, #203a43, #2c5364, #203a43, #0f2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: url("../img/chalkboard.jpg");
     transition: background 0.5s linear;
 }
 
@@ -33,8 +31,8 @@ html, body {
 }
 
 .navbar ul a:hover {
-    background-color: #cecece;
-    color: #6f5fb4;
+    background-color: rgba(0, 0, 0,.3);
+    text-decoration: underline;
 }
 
 .nav-color {
@@ -44,9 +42,17 @@ html, body {
 
 /* SideNav */
 .sidenav {
-    background: url("../img/.png")
+    background: url("../img/asteroids.jpg")
 }
 .sidenav li>a {
     color: white;
     font-weight: 100;
+}
+.sidenav li>a:hover{
+    background-color: rgba(0, 0, 0,.3);
+    text-decoration: underline;
+}
+
+.home{
+    background-image: url("../img/shattered-island\(virado\).png");
 }
