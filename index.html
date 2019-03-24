@@ -1,18 +1,45 @@
 <!DOCTYPE html>
 <html lang="pt-br">
+
 <head>
     <meta charset="utf-8">
-    <title>Page Title</title>
+    <title>Venha conhecer meu trabalho.</title>
     <link rel="icon" href="_img/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
     <!-- Google Icons -->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="_css/materialize.css">
-    <link rel="stylesheet" href="_css/custom.css">   
+    <link rel="stylesheet" href="_css/custom.css">
 </head>
+
 <body>
-    
+    <!-- Cabeçalho -->
+    <header>
+        <!-- Menu Mobile -->
+        <ul class="sidenav" id="menu-mobile">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#!">Meus Projetos</a></li>
+            <li><a href="#contato">Contatos</a></li>
+        </ul>
+        <!-- Fim Menu Mobile -->
+        <div class="navbar-fixed">
+            <nav class="navbar z-depth-0">
+                <div class="nav-wrapper container ">
+                    <h1 class="logo_text">Site pessoal do Dev. Raffael Bino</h1>
+                    <a href="#home"><img class="logo_img" src="_img/" alt="Foto do Raffael"></a>
+                    <ul class="right light hide-on-med-and-down">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#!">Meus Projetos</a></li>
+                        <li><a href="#contato">Contatos</a></li>
+                    </ul>
+                    <a href="#" data-target="menu-mobile" class="sidenav-trigger right"><i
+                            class="material-icons">menu</i></a>
+                </div>
+            </nav>
+        </div>
+    </header>
+    <!-- Fim Cabeçalho -->
 
 
 
@@ -21,5 +48,44 @@
     <script src="_js/jquery-3.3.1.js"></script>
     <!--MATERIALIZE JS-->
     <script src="_js/materialize.js"></script>
+    <!-- JAVASCRIPT-->
+    <script>
+        // INICIALIZAÇÃO
+        $(document).ready(function () {
+            // MENU MOBILE
+            $('.sidenav').sidenav();
+            // LINK INTERNO
+            $(".scrollspy").scrollSpy({
+                scrollOffset: 0
+            });
+            // CAROUSEL
+            $(".carousel.carousel-slider").carousel({
+                fullWidth: true,
+                indicators: true
+            });
+            $('.next').click(function () {
+                $('.carousel').carousel('next');
+            });
+            $('.prev').click(function () {
+                $('.carousel').carousel('prev');
+            });
+            // Zoom na Foto MaterialBoxed
+            $(document).ready(function () {
+                $('.materialboxed').materialbox();
+            });
+            // Modal
+            $(".modal").modal();
+
+        });
+
+        // ADICIONANDO E REMOVENDO NAVCOLOR
+        $(window).on("scroll", function () {
+            if ($(window).scrollTop() > 100) {
+                $(".navbar").addClass("nav-color");
+            } else {
+                $(".navbar").removeClass("nav-color");
+            }
+        });
+    </script>
 </body>
 </html>

@@ -1,0 +1,16 @@
+/* HEIGHT 100% */
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bloco {
+    min-height: 100%;
+    padding-top: 94px;
+}
+
+/* Logo */
+.logo_text {
+    font-size: 0;
+    margin: 0;
+}
