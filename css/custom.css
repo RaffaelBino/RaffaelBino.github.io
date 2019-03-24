@@ -14,3 +14,39 @@ html, body {
     font-size: 0;
     margin: 0;
 }
+.logo_img{
+    width: 50px;
+    margin-top: 5px;
+}
+
+/* Nav */
+/* Menu */
+.navbar {
+    background: #0f2027; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #0f2027, #203a43, #2c5364); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #0f2027, #203a43, #2c5364); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    transition: background 0.5s linear;
+}
+
+.navbar ul a {
+    color: #fff;
+}
+
+.navbar ul a:hover {
+    background-color: #cecece;
+    color: #6f5fb4;
+}
+
+.nav-color {
+    background-color: rgba(0, 0, 0,.7);
+    transition: background 0.5s linear;
+}
+
+/* SideNav */
+.sidenav {
+    background: url("../img/.png")
+}
+.sidenav li>a {
+    color: white;
+    font-weight: 100;
+}
