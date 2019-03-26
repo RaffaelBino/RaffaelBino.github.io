@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Raffael Bino | </title>
+    <title>Raffael Bino | Developer | Me conheça </title>
     <link rel="icon" href="img/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
@@ -16,17 +16,37 @@
 <body>
     <!-- Cabeçalho -->
     <header>
-        <!-- Menu Mobile -->
-        <!-- Fim Menu Mobile -->
-        
+        <section>
+            <div class="ini bloco center" id="ini">
+                <br>
+                <br>
+                <br>
+                <br>
+                <h2 class="white-text">Seja bem vindo !</h2>
+                <h5 class="white-text">Sou Raffael Bino e eu amo desenvolver </h5>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+                <br>
+            </div>
+        </section>
     </header>
     <!-- Fim Cabeçalho -->
     <!-- Home -->
-        <section class="home bloco scrollspy" id="home">
-            <div class="row container banner">
-                
-            </div>
-        </section>
+    <section class="home bloco scrollspy" id="home">
+        <div class="row container banner">
+
+        </div>
+    </section>
     <!-- Fim Home -->
 
 
@@ -38,31 +58,7 @@
     <script src="js/materialize.js"></script>
     <!-- JAVASCRIPT-->
     <script>
-        // INICIALIZAÇÃO
-        $(document).ready(function () {
-            // MENU MOBILE
-            $('.sidenav').sidenav();
-            // LINK INTERNO
-            $(".scrollspy").scrollSpy({
-                scrollOffset: 0
-            });
-            // Zoom na Foto MaterialBoxed
-            $(document).ready(function () {
-                $('.materialboxed').materialbox();
-            });
-            // Modal
-            $(".modal").modal();
 
-        });
-
-        // ADICIONANDO E REMOVENDO NAVCOLOR
-        $(window).on("scroll", function () {
-            if ($(window).scrollTop() > 100) {
-                $(".navbar").addClass("nav-color");
-            } else {
-                $(".navbar").removeClass("nav-color");
-            }
-        });
     </script>
 </body>
 
