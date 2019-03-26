@@ -9,52 +9,9 @@ html, body {
     padding-top: 94px;
 }
 
-/* Logo */
-.logo_text {
-    font-size: 0;
-    margin: 0;
-}
-.logo_img{
-    width: 50px;
-    margin-top: 5px;
-}
-
-/* Nav */
-/* Menu */
-.navbar {
-    background: url("../img/shattered-island.png");
-    transition: background 0.5s linear;
-}
-
-.navbar ul a {
-    color: #fff;
-}
-
-.navbar ul a:hover {
-    background-color: rgba(0, 0, 0,.3);
-    text-decoration: underline;
-}
-
-.nav-color {
-    background-color: rgba(0, 0, 0,.7);
-    transition: background 0.5s linear;
-}
-
-/* SideNav */
-.sidenav {
-    background: url("../img/shattered-island\(virado\).png")
-}
-.sidenav li>a {
-    color: white;
-    font-weight: 100;
-}
-.sidenav li>a:hover{
-    background-color: rgba(0, 0, 0,.3);
-    text-decoration: underline;
-}
 
 .home{
-    background-image: url("../img/shattered-island\(branco\).png");
+    background: #eaeaea;
 }
 .banner h2{
     font-size: 2.5rem;
