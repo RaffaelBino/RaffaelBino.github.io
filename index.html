@@ -14,41 +14,52 @@
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
     <link rel="stylesheet" href="css/custom.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/fontawesome.css"
+        integrity="sha384-vd1e11sR28tEK9YANUtpIOdjGW14pS87bUBuOIoBILVWLFnS+MCX9T6MMf0VdPGq" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/jquery.circliful.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
-    
+
 </head>
 
 <body>
     <!-- Inicio -->
-        <section>
-            <div class="ini bloco center" id="ini">
-                <br><br><br><br><br><br><br><br>
-                <h2 class="white-text">Seja bem vindo !</h2>
-                <h5 class="white-text">Sou Raffael Bino e eu amo desenvolver </h5>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
-            </div>
-        </section>
+    <section>
+        <div class="ini bloco center" id="ini">
+            <br><br><br><br><br><br><br><br>
+            <h2 class="white-text">Seja bem vindo !</h2>
+            <h5 class="white-text">Sou Raffael Bino e eu amo desenvolver </h5>
+            <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+        </div>
+    </section>
     <!-- Fim Inicio -->
     <!-- Sobre -->
     <section class="sobre bloco" id="sobre">
         <div class="row container center">
             <h2 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">Sobre</h2>
+            <br>
+            <div class="col s12 m6 l6">
                 <br>
-                <div class="col s12 m6 l6">
-                    <br>
-                    <img src="img/perfil.jpg" alt="Raffael Bino" class="circle aos-init aos-animate"  data-aos="fade-up" data-aos-duration="3000">
-                </div>
-                <div class="cols s12 m6 l6">
-                    <br>
-                    <h5 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">SEJA BEM VINDO AO MEU SITE PESSOAL.</h5>
-                    <p class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000"></p>
-                </div>
+                <img src="img/perfil.jpg" alt="Raffael Bino" class="circle aos-init aos-animate" data-aos="fade-up"
+                    data-aos-duration="3000">
+            </div>
+            <div class="cols s12 m6 l6">
+                <br>
+                <h5 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">SEJA BEM VINDO AO MEU SITE
+                    PESSOAL.</h5>
+                <p class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000"></p>
+            </div>
         </div>
     </section>
     <!-- Fim Sobre -->
+    <div class="row container">
+        <div class="col s12 m6 l6">
+            <div id="test-circle3" data-animation="1" data-animationStep="5" data-percent="58"><span
+                    class="fas fa-igloo"></span></div>
+        </div>
+    </div>
 
 
-
+    <span class="fas fa-igloo"></span>
 
     <!-- JQUERY-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -57,6 +68,28 @@
     <!-- AOS -->
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
+    <!-- Font Awesome -->
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/solid.js" integrity="sha384-IA6YnujJIO+z1m4NKyAGvZ9Wmxrd4Px8WFqhFcgRmwLaJaiwijYgApVpo1MV8p77" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/regular.js" integrity="sha384-Uc9toywOA44owltk1MWl0lQZ+L0mBzJkLQcdif6+JtG9izvok9DLJtCZX57Uq3k2" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/brands.js" integrity="sha384-rUOIFHM3HXni/WG5pzDhA1e2Js5nn4bWudTYujHbbI9ztBIxK54CL4ZNZWwcBQeD" crossorigin="anonymous"></script>
+<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/fontawesome.js" integrity="sha384-EMmnH+Njn8umuoSMZ3Ae3bC9hDknHKOWL2e9WJD/cN6XLeAN7tr5ZQ0Hx5HDHtkS" crossorigin="anonymous"></script>
+    <!-- Circliful -->
+    <script src="js/jquery.circliful.min.js"></script>
+    <script>
+        $(document).ready(function () { // 6,32 5,38 2,34
+            $("#test-circle3").circliful({
+                animation: 1,
+            animationStep: 6,
+            foregroundBorderWidth: 5,
+            backgroundBorderWidth: 1,
+            percent: 88,
+            iconColor: '#3498DB',
+            icon: 'f0a0',
+            iconSize: '40',
+            iconPosition: 'middle'
+            });
+        });
+    </script>
     <!-- JAVASCRIPT-->
     <script></script>
 </body>
