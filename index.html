@@ -62,56 +62,78 @@
     <!-- Habilidade -->
     <section class="hab bloco" id="hab">
         <div class="row container center">
-                <h2 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">Habilidades</h2>
+            <h2 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">Habilidades</h2>
             <div class="col s12 m6 l6">
                 <div id="circulo1" data-animation="0" data-animationStep="3" data-percent="58" data-icon="f13b"
-                    data-animateInView="true" class="aos-init aos-animate" data-aos="fade-right" data-aos-duration="3000">
+                    data-animateInView="true" class="aos-init aos-animate" data-aos="fade-right"
+                    data-aos-duration="3000">
+                </div>
+            </div>
+            <div class="col s12 m6 l6">
+                <div id="circulo2" data-animation="0" data-animationStep="3" data-percent="58" data-icon="f13c"
+                    data-animateInView="true" class="aos-init aos-animate" data-aos="fade-down"
+                    data-aos-duration="3000">
+                </div>
+            </div>
+            <div class="col s12 m6 l6">
+                <div id="circulo3" data-animation="0" data-animationStep="3" data-percent="58" data-icon="f3b9"
+                    data-animateInView="true" class="aos-init aos-animate" data-aos="fade-down"
+                    data-aos-duration="3000">
                 </div>
             </div>
         </div>
-    </sectio>
-    <!-- Fim Habilidade -->
+        </sectio>
+        <!-- Fim Habilidade -->
 
 
 
 
-    <!-- JQUERY-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!--MATERIALIZE JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
-    <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/solid.js"
-        integrity="sha384-IA6YnujJIO+z1m4NKyAGvZ9Wmxrd4Px8WFqhFcgRmwLaJaiwijYgApVpo1MV8p77"
-        crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/regular.js"
-        integrity="sha384-Uc9toywOA44owltk1MWl0lQZ+L0mBzJkLQcdif6+JtG9izvok9DLJtCZX57Uq3k2"
-        crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/brands.js"
-        integrity="sha384-rUOIFHM3HXni/WG5pzDhA1e2Js5nn4bWudTYujHbbI9ztBIxK54CL4ZNZWwcBQeD"
-        crossorigin="anonymous"></script>
-    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/fontawesome.js"
-        integrity="sha384-EMmnH+Njn8umuoSMZ3Ae3bC9hDknHKOWL2e9WJD/cN6XLeAN7tr5ZQ0Hx5HDHtkS"
-        crossorigin="anonymous"></script>
-    <!-- Circliful -->
-    <script src="js/jquery.circliful.min.js"></script>
-    <script>
-        $(document).ready(function () { // 6,32 5,38 2,34
-            $("#circulo1").circliful({
-                animation: null,
-                animationStep: 6,
-                foregroundBorderWidth: 5,
-                backgroundBorderWidth: 1,
-                iconColor: '#3498DB',
-                iconSize: '40',
-                iconPosition: 'middle'
+        <!-- JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--MATERIALIZE JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
+        <!-- Font Awesome -->
+        <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/solid.js"
+            integrity="sha384-IA6YnujJIO+z1m4NKyAGvZ9Wmxrd4Px8WFqhFcgRmwLaJaiwijYgApVpo1MV8p77"
+            crossorigin="anonymous"></script>
+        <!-- Circliful -->
+        <script src="js/jquery.circliful.js"></script>
+        <script>
+            $(document).ready(function () { // 6,32 5,38 2,34
+                $("#circulo1").circliful({
+                    animation: null,
+                    animationStep: 6,
+                    foregroundBorderWidth: 5,
+                    backgroundBorderWidth: 1,
+                    iconColor: '#3498DB',
+                    iconSize: '40',
+                    iconPosition: 'middle'
+                });
+                $("#circulo2").circliful({
+                    animation: null,
+                    animationStep: 6,
+                    foregroundBorderWidth: 5,
+                    backgroundBorderWidth: 1,
+                    iconColor: '#3498DB',
+                    iconSize: '40',
+                    iconPosition: 'middle'
+                });
+                $("#circulo3").circliful({
+                    animation: null,
+                    animationStep: 6,
+                    foregroundBorderWidth: 5,
+                    backgroundBorderWidth: 1,
+                    iconColor: '#3498DB',
+                    iconSize: '40',
+                    iconPosition: 'middle'
+                });
             });
-        });
-    </script>
-    <!-- JAVASCRIPT-->
-    <script></script>
+        </script>
+        <!-- JAVASCRIPT-->
+        <script></script>
 </body>
 
 </html>
