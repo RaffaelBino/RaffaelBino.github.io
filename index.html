@@ -5,7 +5,8 @@
     <meta charset="utf-8">
     <meta name="author" content="Raffael Bino">
     <meta name="robots" content="index,follow">
-    <meta name="keywords" content="sites, web, desenvolvimento,raffael bino, raffael, bino, front-end, front, end, desenvolvedor,site pessoal, portfolio">
+    <meta name="keywords"
+        content="sites, web, desenvolvimento,raffael bino, raffael, bino, front-end, front, end, desenvolvedor,site pessoal, portfolio">
     <meta name="description" content="Site pessoal, olá me chamo Raffael Bino , tenho 19 anos e amo trabalhar com desenvolvimento !<br>
     Minhas principais ferramentas são : MATERIALIZE, CSS e HTML.
     e, o que eu não sei aprendo rápido. Atualmente estou estudando sobre  Html5, CSS3 e Materialize">
@@ -59,15 +60,20 @@
     </section>
     <!-- Fim Sobre -->
     <!-- Habilidade -->
-    <div class="row container bloco">
-        <div class="col s12 m6 l6">
-            <h2 class="aos-init aos-animate center" data-aos="fade-up" data-aos-duration="3000">Habilidades</h2>
-            <div id="test-circle3" data-animation="1" data-animationStep="5" data-percent="58" data-icon="f13b " class="aos-init aos-animate" data-aos="fade-right" data-aos-duration="3000" ></div>
+    <section class="hab bloco" id="hab">
+        <div class="row container center">
+                <h2 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">Habilidades</h2>
+            <div class="col s12 m6 l6">
+                <div id="circulo1" data-animation="0" data-animationStep="3" data-percent="58" data-icon="f13b"
+                    data-animateInView="true" class="aos-init aos-animate" data-aos="fade-right" data-aos-duration="3000">
+                </div>
+            </div>
         </div>
-    </div>
+    </sectio>
+    <!-- Fim Habilidade -->
 
 
-    
+
 
     <!-- JQUERY-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
@@ -77,23 +83,30 @@
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
     <script>AOS.init();</script>
     <!-- Font Awesome -->
-    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/solid.js" integrity="sha384-IA6YnujJIO+z1m4NKyAGvZ9Wmxrd4Px8WFqhFcgRmwLaJaiwijYgApVpo1MV8p77" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/regular.js" integrity="sha384-Uc9toywOA44owltk1MWl0lQZ+L0mBzJkLQcdif6+JtG9izvok9DLJtCZX57Uq3k2" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/brands.js" integrity="sha384-rUOIFHM3HXni/WG5pzDhA1e2Js5nn4bWudTYujHbbI9ztBIxK54CL4ZNZWwcBQeD" crossorigin="anonymous"></script>
-<script defer src="https://use.fontawesome.com/releases/v5.8.1/js/fontawesome.js" integrity="sha384-EMmnH+Njn8umuoSMZ3Ae3bC9hDknHKOWL2e9WJD/cN6XLeAN7tr5ZQ0Hx5HDHtkS" crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/solid.js"
+        integrity="sha384-IA6YnujJIO+z1m4NKyAGvZ9Wmxrd4Px8WFqhFcgRmwLaJaiwijYgApVpo1MV8p77"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/regular.js"
+        integrity="sha384-Uc9toywOA44owltk1MWl0lQZ+L0mBzJkLQcdif6+JtG9izvok9DLJtCZX57Uq3k2"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/brands.js"
+        integrity="sha384-rUOIFHM3HXni/WG5pzDhA1e2Js5nn4bWudTYujHbbI9ztBIxK54CL4ZNZWwcBQeD"
+        crossorigin="anonymous"></script>
+    <script defer src="https://use.fontawesome.com/releases/v5.8.1/js/fontawesome.js"
+        integrity="sha384-EMmnH+Njn8umuoSMZ3Ae3bC9hDknHKOWL2e9WJD/cN6XLeAN7tr5ZQ0Hx5HDHtkS"
+        crossorigin="anonymous"></script>
     <!-- Circliful -->
     <script src="js/jquery.circliful.min.js"></script>
     <script>
         $(document).ready(function () { // 6,32 5,38 2,34
-            $("#test-circle3").circliful({
+            $("#circulo1").circliful({
                 animation: null,
-            animationStep: 6,
-            foregroundBorderWidth: 5,
-            backgroundBorderWidth: 1,
-            iconColor: '#3498DB',
-            icon: 'f0a0',
-            iconSize: '40',
-            iconPosition: 'middle'
+                animationStep: 6,
+                foregroundBorderWidth: 5,
+                backgroundBorderWidth: 1,
+                iconColor: '#3498DB',
+                iconSize: '40',
+                iconPosition: 'middle'
             });
         });
     </script>
