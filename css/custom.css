@@ -14,9 +14,13 @@ hr {
     margin-top: -15px;
 }
 .ini{
-background: url("../img/asteroids.jpg");
+background-image: url("../img/imgIni.jpg");
+-webkit-background-size: 100% 100%;
+-moz-background-size: 100% 100%;
+-o-background-size: 100% 100%;
+background-size: 100% 100%;
 }
-.ini h2 {
+.ini h1 {
     text-transform: uppercase;
     text-shadow: 3px 2px rgba(0, 0, 0, .7);
     webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
@@ -25,7 +29,7 @@ background: url("../img/asteroids.jpg");
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
 }
-.ini h5{
+.ini h4{
     text-shadow: 3px 2px rgba(0, 0, 0, .7);
      webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 5s; /* Firefox < 16 */
