@@ -63,3 +63,31 @@ background: url("../img/asteroids.jpg");
 .sobre h2{
     
 }
+
+@media only screen and (min-width: 1200px) {
+    .hab #circulo1 {
+        width: 350px;
+        margin: auto -100px auto;
+    }
+    .hab #circulo2 {
+        width: 350px;
+        margin: auto 50px auto;
+    }
+    .hab #circulo3 {
+        width: 350px;
+        margin: auto auto auto 200px;
+    }
+
+    #tituloCirc1{
+        width: 350px;
+        margin: auto -100px auto;
+    }
+    #tituloCirc2{
+        width: 350px;
+        margin: auto 50px auto;
+    }
+    #tituloCirc3{
+        width: 350px;
+        margin: auto auto auto 200px;
+    }
+}
