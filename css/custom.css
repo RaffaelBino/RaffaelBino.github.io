@@ -28,11 +28,10 @@ background-size: 100% 100%;
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
             animation: fadein 2s;
-            position: relative;
-            font-size: 200px;
             color: #ffee58;
             font-weight: bold;
-            margin-top: -35px;
+            margin-bottom: 160px;
+            font-size: 6.5rem;
 }
 .ini h4{
     text-shadow: 1px 1px rgba(0, 0, 0, .7);
@@ -41,10 +40,6 @@ background-size: 100% 100%;
         -ms-animation: fadein 5s; /* Internet Explorer */
          -o-animation: fadein 5s; /* Opera < 12.1 */
             animation: fadein 5s;
-            font-size: 30px;
-            position: relative;
-            margin-top: 130px;
-            font-weight: bold;
 }
 @keyframes fadein {
     from { opacity: 0; }
@@ -82,3 +77,38 @@ background-size: 100% 100%;
     
 }
 
+/* Media */
+
+
+@media only screen and (min-width: 993px) {
+    .ini h1 {
+    text-transform: uppercase;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, .7);
+    webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 2s; /* Firefox < 16 */
+        -ms-animation: fadein 2s; /* Internet Explorer */
+         -o-animation: fadein 2s; /* Opera < 12.1 */
+            animation: fadein 2s;
+            position: relative;
+            font-size: 12.5rem;
+            color: #ffee58;
+            font-weight: bold;
+            margin-top: -35px;
+}
+.ini h4{
+    text-shadow: 1px 1px rgba(0, 0, 0, .7);
+     webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+       -moz-animation: fadein 5s; /* Firefox < 16 */
+        -ms-animation: fadein 5s; /* Internet Explorer */
+         -o-animation: fadein 5s; /* Opera < 12.1 */
+            animation: fadein 5s;
+            font-size: 1.875rem;
+            position: relative;
+            margin-top: 130px;
+            font-weight: bold;
+}
+
+    .container {
+        width: 90%;
+    }
+}
