@@ -27,7 +27,7 @@
 
 <body>
     <!-- Inicio -->
-    <section class="bloco ini" id="ini">
+    <section class="bloco ini preload-01" id="ini">
         <div class="row container center">
             <br><br><br><br><br><br><br><br>
             <h1 class="white-text">Seja bem vindo !</h2>
@@ -71,10 +71,8 @@
     <div class="hidden">
         <script type="text/javascript">
             function preloader() {
-                if (document.images) {
-                    var img1 = new Image();
-
-                    img1.src = "https://github.com/RaffaelBino/RaffaelBino.github.io/blob/master/img/imgIni.jpg";
+                if (document.getElementById) {
+                    document.getElementById("preload-01").style.background = 'url"(../img/imgIni.jpg)"';
                 }
             }
             function addLoadEvent(func) {
