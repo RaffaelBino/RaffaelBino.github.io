@@ -29,10 +29,10 @@
     <!-- Inicio -->
     <section class="bloco ini" id="ini">
         <div class="row container center">
-                <br><br><br><br><br><br><br><br>
-                <h1 class="white-text">Seja bem vindo !</h2>
+            <br><br><br><br><br><br><br><br>
+            <h1 class="white-text">Seja bem vindo !</h2>
                 <h4 class="white-text">Sou Raffael Bino e eu amo desenvolver </h5>
-                <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+                    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
         </div>
     </section>
     <!-- Fim Inicio -->
@@ -62,22 +62,46 @@
             <h2 class="aos-init aos-animate linha" data-aos="fade-up" data-aos-duration="3000">Habilidades</h2>
             <hr>
 
-            
-        </section>
-        <!-- Fim Habilidade -->
-    
+
+    </section>
+    <!-- Fim Habilidade -->
 
 
 
-        <!-- JQUERY-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!--MATERIALIZE JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <!-- AOS -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>AOS.init();</script>
-        <!-- JAVASCRIPT-->
-        <script></script>
+    <div class="hidden">
+        <script type="text/javascript">
+            function preloader() {
+                if (document.images) {
+                    var img1 = new Image();
+
+                    img1.src = "https://github.com/RaffaelBino/RaffaelBino.github.io/blob/master/img/imgIni.jpg";
+                }
+            }
+            function addLoadEvent(func) {
+                var oldonload = window.onload;
+                if (typeof window.onload != 'function') {
+                    window.onload = func;
+                } else {
+                    window.onload = function () {
+                        if (oldonload) {
+                            oldonload();
+                        }
+                        func();
+                    }
+                }
+            }
+            addLoadEvent(preloader);
+        </script>
+    </div>
+    <!-- JQUERY-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <!--MATERIALIZE JS-->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>AOS.init();</script>
+    <!-- JAVASCRIPT-->
+    <script></script>
 </body>
 
 </html>
