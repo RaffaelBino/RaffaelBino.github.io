@@ -8,7 +8,7 @@
 
 /** Progressbar class css*/
 .progressbar {
-    width: 100%;
+    width: 60%;
 	margin-top: 5px;
 	margin-bottom: 35px;
 	/* Use this margin-left when your bar width is in 60% and your screen width is shorter than 480px */
