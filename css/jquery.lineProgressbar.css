@@ -12,7 +12,7 @@
 	margin-top: 5px;
 	margin-bottom: 35px;
 	/* Use this margin-left when your bar width is in 60% and your screen width is shorter than 480px */
-	margin-left: 70px;
+	margin-left: 50px;
 	position: relative;
 	background-color: #EEEEEE;
 	box-shadow: inset 0px 1px 1px rgba(0,0,0,.1);
