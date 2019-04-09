@@ -74,9 +74,21 @@ background-size: 100% 100%;
 .sobre{
     background: #eaeaea;
 }
-.sobre h2{
-    
+.sobre h5{
+    font-weight: bold;
+    text-decoration: underline;
 }
+.sobre p {
+    font-weight: 200;
+}
+.sobre a {
+
+}
+.sobre a:hover {
+    text-decoration: underline;
+}
+
+
 .hab p {
     font-size: 1.3rem;
 }
@@ -145,6 +157,14 @@ background-size: 100% 100%;
             font-size: 1.875rem;
             position: relative;
             font-weight: bold;
+}
+
+.sobre h5{
+    font-weight: bold;
+}
+.sobre p {
+    font-size: 1.3rem;
+    font-weight: 200;
 }
 
     .container {

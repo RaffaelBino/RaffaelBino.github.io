@@ -7,9 +7,9 @@
     <meta name="robots" content="index,follow">
     <meta name="keywords"
         content="sites, web, desenvolvimento,raffael bino, raffael, bino, front-end, front, end, desenvolvedor,site pessoal, portfolio">
-    <meta name="description" content="Site pessoal, olá me chamo Raffael Bino , tenho 19 anos e amo trabalhar com desenvolvimento !<br>
+    <meta name="description" content="Site pessoal, olá me chamo Raffael Bino , tenho 19 anos e amo desenvolver!<br>
     Minhas principais ferramentas são : MATERIALIZE, CSS e HTML.
-    e, o que eu não sei aprendo rápido. Atualmente estou estudando sobre  Html5, CSS3 e Materialize">
+    e, o que eu não sei aprendo rápido. Atualmente estou estudando sobre  Html5, CSS3, Materialize, Git">
     <title>Raffael Bino | Developer | Me conheça </title>
     <link rel="icon" href="img/">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -29,7 +29,7 @@
 
 <body>
     <!-- Inicio -->
-    <section class="bloco ini" id="ini">
+    <section class="bloco ini scrollspy" id="ini">
         <div class="row container center">
             <br><br><br><br><br><br><br><br>
             <h1 class="center">Welcome!</h2>
@@ -39,7 +39,7 @@
     </section>
     <!-- Fim Inicio -->
     <!-- Sobre -->
-    <section class="sobre bloco" id="sobre">
+    <section class="sobre bloco scrollspy" id="sobre">
         <div class="row container center">
             <h2 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">Sobre</h2>
             <hr>
@@ -53,13 +53,16 @@
                 <br>
                 <h5 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">SEJA BEM VINDO AO MEU SITE
                     PESSOAL.</h5>
-                <p class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000"></p>
+                <p class="aos-init aos-animate left-align" data-aos="fade-up" data-aos-duration="3000"><br>Me chamo Raffael Bino,
+                    atualmente tenho 19 anos e estou cursando Ciência da Computação.
+                    Tenho sempre disposição para aprender algo novo, não sou uma pessoa de ficar acomodada em sua zona
+                    de conforto, estou sempre buscando me atualizar e me aperfeiçoar. Clicando <a href="#hab">aqui</a> você verá algumas das minhas habilidades e o quanto eu tenho conhecimento delas. Não tenho problemas em trabalhar em equipe e tenho noções básicas dos metodos da Engenharia de Software, que posso aplicar nos projetos. </p>
             </div>
         </div>
     </section>
     <!-- Fim Sobre -->
     <!-- Habilidade -->
-    <section class="hab bloco" id="hab">
+    <section class="hab bloco scrollspy" id="hab">
         <div class="row container center">
             <h2 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">Habilidades</h2>
             <hr>
@@ -84,7 +87,7 @@
                 <img class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000"
                     src="img/icons8-javascript.png" title="JavaScript" alt="Habilidade JavaScript">
                 <div class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000" id="barjs"></div>
-                <p class="left-align aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000" >Minha habilidade
+                <p class="left-align aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">Minha habilidade
                     com javascript se dá...<br><br><br></p>
             </div>
     </section>
@@ -124,7 +127,13 @@
         });
     </script>
     <!-- JAVASCRIPT-->
-    <script></script>
+    <script>
+    $(document).ready(function () {
+        $(".scrollspy").scrollSpy({
+                scrollOffset: 0
+            });
+    });
+    </script>
 </body>
 
 </html>
