@@ -24,7 +24,9 @@
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <!-- kingRayhan Progress Bar-->
     <link rel="stylesheet" href="css/jquery.lineProgressbar.css">
-
+    <!-- Font Awesome v5.8.1-->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
 </head>
 
 <body>
@@ -44,19 +46,27 @@
             <h2 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">Sobre</h2>
             <hr>
             <br>
-            <div class="col s12 m6 l6">
+            <div class="col s12 m12 l12">
                 <br>
                 <img src="img/perfil.jpg" title="Oi, eu sou Raffael Bino" alt="Raffael Bino"
                     class="circle aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">
             </div>
-            <div class="col s12 m6 l6">
-                <br>
-                <h5 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">SEJA BEM VINDO AO MEU SITE
-                    PESSOAL.</h5>
-                <p class="aos-init aos-animate left-align" data-aos="fade-up" data-aos-duration="3000"><br>Me chamo Raffael Bino,
-                    atualmente tenho 19 anos e estou cursando Ciência da Computação.
-                    Tenho sempre disposição para aprender algo novo, não sou uma pessoa de ficar acomodada em sua zona
-                    de conforto, estou sempre buscando me atualizar e me aperfeiçoar. Clicando <a href="#hab">aqui</a> você verá algumas das minhas habilidades e o quanto eu tenho conhecimento delas. Não tenho problemas em trabalhar em equipe e tenho noções básicas dos metodos da Engenharia de Software, que posso aplicar nos projetos. </p>
+
+            <div class="skills col s12 m6 l4" id="skills">
+                <i class="material-icons large">important_devices</i>
+                <p>Trabalho com sites responsivos.<br>
+                    São sites que funcionam bem em diferentes tamanhos de tela.
+                </p>
+            </div>
+            <div class="skills col s12 m6 l4" id="skills">
+                <i class="material-icons large">group</i>
+                <p>Não tenho dificuldade em trabalho em equipe.
+                </p>
+            </div>
+            <div class="skills col s12 m6 l4" id="skills">
+                <i class="fas fa-laptop-code large"></i>
+                <p>Tento sempre está atualizado.
+                </p>
             </div>
         </div>
     </section>
@@ -128,11 +138,11 @@
     </script>
     <!-- JAVASCRIPT-->
     <script>
-    $(document).ready(function () {
-        $(".scrollspy").scrollSpy({
+        $(document).ready(function () {
+            $(".scrollspy").scrollSpy({
                 scrollOffset: 0
             });
-    });
+        });
     </script>
 </body>
 
