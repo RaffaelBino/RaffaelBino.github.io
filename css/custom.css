@@ -95,13 +95,20 @@ background-size: 100% 100%;
 .hab1, .hab2, .hab3{
     margin: 1px 0px 1px 1px;
 }
+#medicao1,#medicao2,#medicao3{
+    font-weight: bold;
+}
 
 /* Media */
 @media only screen and (max-width: 480px) {
     #medicao1,#medicao2,#medicao3{
         font-size: 10px;
-        font-weight: bold;
-        margin: auto -25px auto auto;
+        margin: auto -20px auto auto;
+    }
+}
+@media only screen and (min-width: 481px) and (max-width: 600px){
+    #barhtml,#barcss,#barjs{
+        margin: auto -60px auto auto;
     }
 }
 @media only screen and (min-width: 601px) {
@@ -132,7 +139,6 @@ background-size: 100% 100%;
     }
     #medicao1,#medicao2,#medicao3{
         font-size: 15px;
-        font-weight: bold;
         margin: auto 65px auto auto;
     }
 
@@ -168,7 +174,6 @@ background-size: 100% 100%;
 }
 #medicao1,#medicao2,#medicao3{
     font-size: 20px;
-    font-weight: bold;
     margin: auto -25px auto auto;
 }
 .sobre h5{
