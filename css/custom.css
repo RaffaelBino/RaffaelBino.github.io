@@ -145,11 +145,10 @@ background-size: 100% 100%;
             -ms-animation: fadein 2s; /* Internet Explorer */
              -o-animation: fadein 2s; /* Opera < 12.1 */
                 animation: fadein 2s;
-                position: relative;
-                font-size: 6.25rem;
                 color: #ffee58;
                 font-weight: bold;
-                margin-top: -40px;
+                margin:-40px auto 250px auto;
+                font-size: 3.5rem;
     }
         #medicao1,#medicao2,#medicao3{
             font-size: 10px;
