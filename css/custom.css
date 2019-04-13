@@ -136,7 +136,7 @@ background-size: 100% 100%;
         }
 }
 
-@media only screen and (max-width: 740px){
+@media only screen and (min-width: 740px){
         #medicao1,#medicao2,#medicao3{
             font-size: 10px;
             font-weight: bold;
