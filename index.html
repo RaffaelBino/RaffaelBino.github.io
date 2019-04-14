@@ -27,6 +27,8 @@
     <!-- Font Awesome v5.8.1-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
         integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <!-- An Skill Bar -->
+    <link rel="stylesheet" href="css/an-skill-bar.css">
 </head>
 
 <body>
@@ -82,59 +84,33 @@
     <!-- Fim Sobre -->
     <!-- Habilidade -->
     <section class="hab bloco scrollspy" id="hab">
-        <div class="row container center">
+        <div class="row container center bord">
             <h2 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">Habilidades</h2>
             <hr>
-            <div class="col s12 m12 l6 hab1 center" id="hab1">
-                <h4 class="aos-init aos-animate" data-aos="fade-down" data-aos-duration="3000">Html5</h4>
-                <img class="aos-init aos-animate" data-aos="fade-down" data-aos-duration="3000"
-                    src="img/icons8-html-5.png" title="HTML5" alt="Habilidade Html5">
-                <p id="medicao1" class="hide-on-small-and-down">| Iniciante
-                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Intermediario
-                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Avançado |</p>
-                <p id="medicao1" class="hide-on-med-and-up">| Iniciante |&nbsp;&nbsp;&nbsp;&nbsp;| Intermediario
-                    |&nbsp;&nbsp;&nbsp;&nbsp;| Avançado |</p>
-                <div class="aos-init aos-animate" data-aos="fade-down" data-aos-duration="3000" id="barhtml"></div>
-                <p class="aos-init aos-animate" data-aos="fade-down" data-aos-duration="3000" class="left-align">Minha
-                    habilidade com Html5 se dá...</p>
-            </div>
-            <div class="col s12 m12 l6 hab2 center" id="hab2">
-                <h4 class="aos-init aos-animate" data-aos="fade-right" data-aos-duration="3000">Css3</h4>
-                <img class="aos-init aos-animate" data-aos="fade-right" data-aos-duration="3000"
-                    src="img/icons8-css3.png" title="CSS3" alt="Habilidade Css3">
-                <p id="medicao2" class="hide-on-small-and-down">| Iniciante
-                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Intermediario
-                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Avançado |</p>
-                    <p id="medicao2" class="hide-on-med-and-up">| Iniciante |&nbsp;&nbsp;&nbsp;&nbsp;| Intermediario
-                        |&nbsp;&nbsp;&nbsp;&nbsp;| Avançado |</p>
-                <div class="aos-init aos-animate" data-aos="fade-right" data-aos-duration="3000" id="barcss"></div>
-                <p class="center aos-init aos-animate" data-aos="fade-right" data-aos-duration="3000">Minha
-                    habilidade com css3 se dá...</p>
-            </div>
-            <div class="col s12 m12 l6 hab3 center" id="hab3">
-                <h4 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">JavaScript</h4>
-                <img class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000"
-                    src="img/icons8-javascript.png" title="JavaScript" alt="Habilidade JavaScript">
-                <p id="medicao3" class="hide-on-small-and-down">| Iniciante
-                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Intermediario
-                    |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;| Avançado |</p>
-                    <p id="medicao3" class="hide-on-med-and-up">| Iniciante |&nbsp;&nbsp;&nbsp;&nbsp;| Intermediario
-                        |&nbsp;&nbsp;&nbsp;&nbsp;| Avançado |</p>
-                <div class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000" id="barjs"></div>
-                <p class="aos-init aos-animate center" data-aos="fade-up" data-aos-duration="3000">Minha habilidade
-                    com javascript se dá...<br><br><br></p>
-            </div>
-    </section>
-    <!-- Fim Habilidade -->
-    <section class="bloco"> 
-        <div class="row container">
-            <article class="col s12 m12 l4">
-            
+            <article class="col s12 m12 l7 hab1">
+            <div class="skillbar">
+                    <span class="title"></i> Html5</span>
+                    <span class="percent">55%</span>
+                    <div class="filled" data-width="55%"></div>
+                </div>
             </article>
+            <article class="col s12 m12 l7 hab2">
+                    <div class="skillbar">
+                        <span class="title"></i> CSS3</span>
+                        <span class="percent">45%</span>
+                        <div class="filled" data-width="45%"></div>
+                    </div>
+                </article>
+                <article class="col s12 m12 l7 hab3">
+                        <div class="skillbar">
+                            <span class="title"></i> CSS3</span>
+                            <span class="percent">20%</span>
+                            <div class="filled" data-width="20%"></div>
+                        </div>
+                    </article>
         </div>
-    </section>  
-
-
+    <!-- Fim Habilidade -->
+    
     <!-- JQUERY-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--MATERIALIZE JS-->
@@ -165,6 +141,13 @@
             width: '70%',
             height: '25px',
             radius: '15px'
+        });
+    </script>
+    <!-- An Skill Bar -->
+    <script src="js/an-skill-bar.js"></script>
+    <script>
+        $(document).ready(function () {
+            $(".skillbar").skillbar();
         });
     </script>
     <!-- JAVASCRIPT-->

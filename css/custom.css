@@ -23,7 +23,7 @@ background-size: 100% 100%;
 .ini h1 {
     text-transform: uppercase;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, .7);
-    webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
@@ -35,7 +35,7 @@ background-size: 100% 100%;
 }
 .ini h4{
     text-shadow: 1px 1px rgba(0, 0, 0, .7);
-     webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 5s; /* Firefox < 16 */
         -ms-animation: fadein 5s; /* Internet Explorer */
          -o-animation: fadein 5s; /* Opera < 12.1 */
@@ -71,7 +71,7 @@ background-size: 100% 100%;
     to   { opacity: 1; }
 }
 
-.sobre{
+.hab{
     background: #eaeaea;
 }
 .sobre h5{
@@ -88,34 +88,18 @@ background-size: 100% 100%;
     text-decoration: underline;
 }
 
-
-.hab p {
-    font-size: 1.3rem;
-}
-.hab1, .hab2, .hab3{
-    margin: 1px 0px 1px 1px;
-}
-#medicao1,#medicao2,#medicao3{
-    font-weight: bold;
-}
-
 /* Media */
 @media only screen and (max-width: 480px) {
-    #medicao1,#medicao2,#medicao3{
-        font-size: 10px;
-        margin: auto -20px auto auto;
-    }
+    
 }
 @media only screen and (min-width: 481px) and (max-width: 600px){
-    #barhtml,#barcss,#barjs{
-        margin: auto -60px auto auto;
-    }
+
 }
 @media only screen and (min-width: 601px) {
     .ini h1 {
         text-transform: uppercase;
         text-shadow: 4px 4px 4px rgba(0, 0, 0, .7);
-        webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+        -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
            -moz-animation: fadein 2s; /* Firefox < 16 */
             -ms-animation: fadein 2s; /* Internet Explorer */
              -o-animation: fadein 2s; /* Opera < 12.1 */
@@ -128,7 +112,7 @@ background-size: 100% 100%;
     }
     .ini h4{
         text-shadow: 1px 1px rgba(0, 0, 0, .7);
-         webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+         -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
            -moz-animation: fadein 5s; /* Firefox < 16 */
             -ms-animation: fadein 5s; /* Internet Explorer */
              -o-animation: fadein 5s; /* Opera < 12.1 */
@@ -137,11 +121,6 @@ background-size: 100% 100%;
                 position: relative;
                 margin-top: 200px;
     }
-    #medicao1,#medicao2,#medicao3{
-        font-size: 15px;
-        margin: auto 65px auto auto;
-    }
-
         .container {
             width: 85%;
         }
@@ -150,7 +129,7 @@ background-size: 100% 100%;
     .ini h1 {
     text-transform: uppercase;
     text-shadow: 4px 4px 4px rgba(0, 0, 0, .7);
-    webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
+    -webkit-animation: fadein 2s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 2s; /* Firefox < 16 */
         -ms-animation: fadein 2s; /* Internet Explorer */
          -o-animation: fadein 2s; /* Opera < 12.1 */
@@ -163,7 +142,7 @@ background-size: 100% 100%;
 }
 .ini h4{
     text-shadow: 1px 1px rgba(0, 0, 0, .7);
-     webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
+     -webkit-animation: fadein 5s; /* Safari, Chrome and Opera > 12.1 */
        -moz-animation: fadein 5s; /* Firefox < 16 */
         -ms-animation: fadein 5s; /* Internet Explorer */
          -o-animation: fadein 5s; /* Opera < 12.1 */
@@ -172,10 +151,6 @@ background-size: 100% 100%;
             position: relative;
             font-weight: bold;
 }
-#medicao1,#medicao2,#medicao3{
-    font-size: 20px;
-    margin: auto -25px auto auto;
-}
 .sobre h5{
     font-weight: bold;
 }
@@ -183,8 +158,14 @@ background-size: 100% 100%;
     font-size: 1.3rem;
     font-weight: 200;
 }
+.hab1{
+    margin-top: 100px;
+}
 
     .container {
         width: 90%;
     }
+}
+.skillbar{
+    box-shadow: inset 0px 1px 1px rgba(0,0,0,.3);
 }
