@@ -11,7 +11,7 @@
 .skillbar {
     width: 100%;
     padding: 10px;
-    margin: 10px 250px;
+    margin: 10px 0;
     position: relative;
     display: block;
     overflow: hidden;
