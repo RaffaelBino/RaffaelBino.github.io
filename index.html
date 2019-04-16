@@ -88,29 +88,54 @@
             <h2 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">Habilidades</h2>
             <hr>
             <article class="col s12 m12 l7 hab1">
-            <div class="skillbar">
+                <div class="skillbar">
                     <span class="title"></i> Html5</span>
                     <span class="percent">55%</span>
                     <div class="filled" data-width="55%"></div>
                 </div>
             </article>
             <article class="col s12 m12 l7 hab2">
-                    <div class="skillbar">
-                        <span class="title"></i> CSS3</span>
-                        <span class="percent">45%</span>
-                        <div class="filled" data-width="45%"></div>
-                    </div>
-                </article>
-                <article class="col s12 m12 l7 hab3">
-                        <div class="skillbar">
-                            <span class="title"></i> CSS3</span>
-                            <span class="percent">20%</span>
-                            <div class="filled" data-width="20%"></div>
-                        </div>
-                    </article>
+                <div class="skillbar">
+                    <span class="title"></i> CSS3</span>
+                    <span class="percent">45%</span>
+                    <div class="filled" data-width="45%"></div>
+                </div>
+            </article>
+            <article class="col s12 m12 l7 hab3">
+                <div class="skillbar">
+                    <span class="title"></i> CSS3</span>
+                    <span class="percent">20%</span>
+                    <div class="filled" data-width="20%"></div>
+                </div>
+            </article>
         </div>
+        <!-- Mobile SkillBar-->
+        <div class="row container center bord">
+            <article class="col s12 m12 l7 hab1">
+                <div class="skillbar1">
+                    <span class="title1"></i> Html5</span>
+                    <span class="percent1">55%</span>
+                    <div class="filled1" data-width="55%"></div>
+                </div>
+            </article>
+            <article class="col s12 m12 l7 hab2">
+                <div class="skillbar1">
+                    <span class="title1"></i> CSS3</span>
+                    <span class="percent1">45%</span>
+                    <div class="filled1" data-width="45%"></div>
+                </div>
+            </article>
+            <article class="col s12 m12 l7 hab3">
+                <div class="skillbar1">
+                    <span class="title1"></i> CSS3</span>
+                    <span class="percent1">20%</span>
+                    <div class="filled1" data-width="20%"></div>
+                </div>
+            </article>
+        </div>
+    </section>
     <!-- Fim Habilidade -->
-    
+
     <!-- JQUERY-->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <!--MATERIALIZE JS-->
@@ -148,6 +173,11 @@
     <script>
         $(document).ready(function () {
             $(".skillbar").skillbar();
+        });
+    </script>
+    <script>
+        $(document).ready(function () {
+            $(".skillbar1").skillbar1();
         });
     </script>
     <!-- JAVASCRIPT-->
