@@ -175,7 +175,7 @@ background-size: 100% 100%;
 .title {
   font-weight: bold;
   font-size: 20px;
-  color: #db3a34;
+  color: #455A64;
 }
 
 .bar {
@@ -197,7 +197,7 @@ background-size: 100% 100%;
   width: 0;
   height: 35px;
   line-height: 35px;
-  background: #db3a34;
+  background: #455A64;
   border-radius: 5px 0 0 5px;
 }
 
