@@ -168,186 +168,43 @@ background-size: 100% 100%;
 }
 
 /* CSS Responsive Skill Bar */
-.title {
-    text-align: center;
-    letter-spacing: 1px; }
-  
-  .skillBox {
-    margin: 20px auto;
-    display: -webkit-box;
-    display: -ms-flexbox;
-    display: flex;
-    -webkit-box-orient: vertical;
-    -webkit-box-direction: normal;
-        -ms-flex-direction: column;
-            flex-direction: column; }
-  
-  a {
-    float: left;
-    width: 5%;
-    font-size: 30px;
-    padding-right: 5px; }
-  
-  .ion-social-html5-outline {
-    color: #DD3b2d; }
-  
-  .ion-social-css3-outline {
-    color: #0277bd; }
-  
-  .ion-social-javascript {
-    color: #e5a228;
-    font-size: 180%; }
-  
-  .ion-social-angular-outline {
-    color: #E42939;
-    font-size: 175%; }
-  
-  .ion-social-nodejs {
-    color: #83CD29; }
-  
-  .ion-social-wordpress-outline {
-    color: #008AC1; }
-  
-  .skillBar {
-    width: 85%;
-    height: 35px;
-    margin: 2px auto; }
-  
-  .skillArea {
-    width: 90%;
-    margin-left: 10px;
-    position: relative;
-    left: 11px;
-    top: 7px; }
-  
-  .skillName {
-    text-align: center;
-    font-size: 14px;
-    margin: 10px;
-    position: relative;
-    top: 5px; }
-  
-  .skill-HTML {
-    width: 55%;
-    height: 2px;
-    -webkit-animation: Animate-HTML 3s;
-            animation: Animate-HTML 3s;
-    background-color: #000000;
-    position: relative;
-    float: left;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
-  
-  .skill-CSS {
-    width: 45%;
-    height: 2px;
-    -webkit-animation: Animate-CSS 3s;
-            animation: Animate-CSS 3s;
-    background-color: #000000;
-    position: relative;
-    float: left;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box; }
-  
-  .skill-JS {
-    width: 20%;
-    height: 2px;
-    -webkit-animation: Animate-JS 3s;
-            animation: Animate-JS 3s;
-    background-color: #000000;
-    position: relative;
-    -webkit-box-sizing: border-box;
-            box-sizing: border-box;
-    float: left; }
+.container {
+  margin-top: 20px;
+}
 
-  
-  @-webkit-keyframes Animate-HTML {
-    from {
-      width: 0; }
-    to {
-      width: 55%; } }
-  
-  @keyframes Animate-HTML {
-    from {
-      width: 0; }
-    to {
-      width: 55%; } }
-  
-  @-webkit-keyframes Animate-CSS {
-    from {
-      width: 0; }
-    to {
-      width: 45%; } }
-  
-  @keyframes Animate-CSS {
-    from {
-      width: 0; }
-    to {
-      width: 45%; } }
-  
-  @-webkit-keyframes Animate-JS {
-    from {
-      width: 0; }
-    to {
-      width: 20%; } }
-  
-  @keyframes Animate-JS {
-    from {
-      width: 0; }
-    to {
-      width: 20%; } }
-  
-  
-  /* Custom, iPhone Retina */
-  /* Extra Small Devices, Phones */
-  @media only screen and (min-width: 480px) {
-    .ion-social-html5-outline {
-      font-size: 310%; }
-    .ion-social-css3-outline {
-      font-size: 310%; }
-    .ion-social-html5-outline {
-      font-size: 300%; }
-    .ion-social-javascript {
-      font-size: 300%; }
-    .skillBar {
-      width: 80%;
-      height: 35px;
-      margin: 10px auto; }
-    .skillArea {
-      margin-left: 10px;
-      position: relative;
-      left: 35px;
-      top: 10px;
-      padding: 5px; }
-    .skillName {
-      font-size: 22px;
-      margin: 35px;
-      position: relative;
-      top: 10px; } }
-  
-  /* Small Devices, Tablets */
-  @media only screen and (min-width: 768px) {
-    .skillBar {
-      width: 75%;
-      margin: 10px auto; }
-    .skillArea {
-      position: relative;
-      left: 35px;
-      top: 10px;
-      padding: 5px; }
-    .skillName {
-      font-size: 22px;
-      margin: 35px;
-      position: relative;
-      top: 10px; } }
-  
-  /* Medium Devices, Desktops */
-  @media only screen and (min-width: 992px) {
-    .skillBar {
-      width: 70%; } }
-  
-  /* Large Devices, Wide Screens */
-  @media only screen and (min-width: 1200px) {
-    .skillBar {
-      width: 65%; } }
+.title {
+  font-weight: bold;
+  font-size: 20px;
+  color: #db3a34;
+}
+
+.bar {
+  width: 90%;
+  height: 35px;
+  background: #fff;
+  border-radius: 5px;
+  position: relative;
+  transition: all 2s linear;
+}
+
+.bar-1,
+.my-skills {
+  width: 80%;
+  margin: 10px auto 25px;
+}
+
+.bar-inner {
+  width: 0;
+  height: 35px;
+  line-height: 35px;
+  background: #db3a34;
+  border-radius: 5px 0 0 5px;
+}
+
+.bar-percent {
+  position: absolute;
+  right: 10px;
+  top: 5px;
+  font-size: 18px;
+}
   

@@ -28,7 +28,7 @@
     <!-- An Skill Bar -->
     <link rel="stylesheet" href="css/an-skill-bar.css">
     <!-- Ionicons -->
-    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css"/>
+    <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
 </head>
 
 <body>
@@ -89,59 +89,66 @@
             <hr>
 
             <!-- CSS Responsive Skill Bar -->
-            <div class="hide-on-med-and-down"><br><br><br><br><br></div>
-            <div class='container'>
 
-                <div class='skillBox'>
+            <body>
+                <div class="container">
+                    <h2 class="my-skills">My Skills</h2>
+                    <div class="bar-1">
+                        <div class="title">HTML5</div>
+                        <div class="bar" data-width="55%">
+                            <div class="bar-inner">
 
-                    <div class='skillBar'>
-                        <a class='ion-social-html5-outline'> </a>
-                        <span class='skillName'> HTML5 </span>
-                        <div class="skillArea">
-                            <span class="skill-HTML"> </span>
-                        </div><!-- skillArea -->
-                    </div><!-- skillBar -->
+                            </div>
+                            <div class="bar-percent">55%</div>
+                        </div>
+                    </div>
+                    <div class="bar-1">
+                        <div class="title" style="color: #084c61;">CSS3</div>
+                        <div class="bar" data-width="45%">
+                            <div class="bar-inner" style="background: #084c61;">
 
-                    <div class='skillBar'>
-                        <a class='ion-social-css3-outline'> </a>
-                        <span class='skillName'> CSS3 </span>
-                        <div class="skillArea">
-                            <span class="skill-CSS"> </span>
-                        </div><!-- skillArea -->
-                    </div><!-- skillBar -->
+                            </div>
+                            <div class="bar-percent">45%</div>
+                        </div>
 
-                    <div class='skillBar'>
-                        <a class='ion-social-javascript'> </a>
-                        <span class='skillName'> JAVASCRIPT </span>
-                        <div class="skillArea">
-                            <span class="skill-JS"> </span>
-                        </div><!-- skillArea -->
-                    </div><!-- skillBar -->
-                </div><!-- skillArea -->
-            </div><!-- skillBar -->
+                    </div>
+                    <div class="bar-1">
+                        <div class="title" style="color: #525252;">Javascript</div>
+                        <div class="bar" data-width="20%">
+                            <div class="bar-inner" style="background: #525252;">
 
-        </div><!-- skillBox -->
+                            </div>
+                            <div class="bar-percent">20%</div>
+                        </div>
+                    </div>
+                </div>
 
-        </div><!-- container -->
-        <!-- Fim Habilidade -->
+            </body>
+            <!-- Fim Habilidade -->
 
-        <!-- JQUERY-->
-        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-        <!--MATERIALIZE JS-->
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-        <!-- AOS -->
-        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-        <script>AOS.init();</script>
-        <!-- Ionicons-->
-        <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
-        <!-- JAVASCRIPT-->
-        <script>
-            $(document).ready(function () {
-                $(".scrollspy").scrollSpy({
-                    scrollOffset: 0
+            <!-- JQUERY-->
+            <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+            <!--MATERIALIZE JS-->
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+            <!-- AOS -->
+            <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+            <script>AOS.init();</script>
+            <!-- Ionicons-->
+            <script src="https://unpkg.com/ionicons@4.2.2/dist/ionicons.js"></script>
+            <!-- JAVASCRIPT-->
+            <script>
+                $(document).ready(function () {
+                    $(".scrollspy").scrollSpy({
+                        scrollOffset: 0
+                    });
                 });
-            });
-        </script>
+
+                $(".bar").each(function () {
+                    $(this).find(".bar-inner").animate({
+                        width: $(this).attr("data-width")
+                    }, 2000)
+                });
+            </script>
 </body>
 
 </html>
