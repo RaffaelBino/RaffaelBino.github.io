@@ -84,90 +84,62 @@
     <!-- Fim Sobre -->
     <!-- Habilidade -->
     <section class="hab bloco scrollspy" id="hab">
-        <div class="row container center bord">
-            <h2 class="aos-init aos-animate" data-aos="fade-up" data-aos-duration="3000">Habilidades</h2>
+        <div class="row container bord">
+            <h2 class="aos-init aos-animate center" data-aos="fade-up" data-aos-duration="3000">Habilidades</h2>
             <hr>
-            <!-- Mobile SkillBar-->
-            <div class="hide-on-large-only">
-            <article class="col s12 m12 l7 hab1">
-                <div class="skillbar">
-                    <span class="title"></i> Html5</span>
-                    <span class="percent">55%</span>
-                    <div class="filled" data-width="60%"></div>
-                </div>
-            </article>
-            <article class="col s12 m12 l7 hab2">
-                <div class="skillbar">
-                    <span class="title"></i> CSS3</span>
-                    <span class="percent">45%</span>
-                    <div class="filled" data-width="50%"></div>
-                </div>
-            </article>
-            <article class="col s12 m12 l7 hab3">
-                <div class="skillbar">
-                    <span class="title"></i> JavaScript</span>
-                    <span class="percent">20%</span>
-                    <div class="filled" data-width="25%"></div>
-                </div>
-            </article>
-        </div>
-        </div>
-        <!-- Fim Mobile SkillBar -->
-        <div class="row container center bord">
-            <div class="hide-on-med-and-down">
-            <article class="col s12 m12 l7 hab1">
-                <div class="skillbar1">
-                    <span class="title1"></i> Html5</span>
-                    <span class="percent1">55%</span>
-                    <div class="filled1" data-width="55%"></div>
-                </div>
-            </article>
-            <article class="col s12 m12 l7 hab2">
-                <div class="skillbar1">
-                    <span class="title1"></i> CSS3</span>
-                    <span class="percent1">45%</span>
-                    <div class="filled1" data-width="45%"></div>
-                </div>
-            </article>
-            <article class="col s12 m12 l7 hab3">
-                <div class="skillbar1">
-                    <span class="title1"></i> JavaScript</span>
-                    <span class="percent1">20%</span>
-                    <div class="filled1" data-width="20%"></div>
-                </div>
-            </article>
-        </div>
-    </div>
-    </section>
-    <!-- Fim Habilidade -->
 
-    <!-- JQUERY-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-    <!--MATERIALIZE JS-->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-    <!-- AOS -->
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-    <script>AOS.init();</script>
-    <!-- An Skill Bar -->
-    <script src="js/an-skill-bar.js"></script>
-    <script>
-        $(document).ready(function () {
-            $(".skillbar").skillbar();
-        });
-    </script>
-    <script>
-        $(document).ready(function () {
-            $(".skillbar1").skillbar1();
-        });
-    </script>
-    <!-- JAVASCRIPT-->
-    <script>
-        $(document).ready(function () {
-            $(".scrollspy").scrollSpy({
-                scrollOffset: 0
+            <!-- CSS Responsive Skill Bar -->
+
+            <div class='container'>
+
+                <div class='skillBox'>
+
+                    <div class='skillBar'>
+                        <a class='ion-social-html5-outline'> </a>
+                        <span class='skillName'> HTML5 </span>
+                        <div class="skillArea">
+                            <span class="skill-HTML"> </span>
+                        </div><!-- skillArea -->
+                    </div><!-- skillBar -->
+
+                    <div class='skillBar'>
+                        <a class='ion-social-css3-outline'> </a>
+                        <span class='skillName'> CSS3 </span>
+                        <div class="skillArea">
+                            <span class="skill-CSS"> </span>
+                        </div><!-- skillArea -->
+                    </div><!-- skillBar -->
+
+                    <div class='skillBar'>
+                        <a class='ion-social-javascript'> </a>
+                        <span class='skillName'> JAVASCRIPT </span>
+                        <div class="skillArea">
+                            <span class="skill-JS"> </span>
+                        </div><!-- skillArea -->
+                    </div><!-- skillBar -->
+                </div><!-- skillArea -->
+            </div><!-- skillBar -->
+
+        </div><!-- skillBox -->
+
+        </div><!-- container -->
+        <!-- Fim Habilidade -->
+
+        <!-- JQUERY-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!--MATERIALIZE JS-->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        <!-- AOS -->
+        <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+        <script>AOS.init();</script>
+        <!-- JAVASCRIPT-->
+        <script>
+            $(document).ready(function () {
+                $(".scrollspy").scrollSpy({
+                    scrollOffset: 0
+                });
             });
-        });
-    </script>
+        </script>
 </body>
 
 </html>
