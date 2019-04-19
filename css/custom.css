@@ -229,7 +229,7 @@ background-size: 100% 100%;
   
   .skill-HTML {
     width: 55%;
-    height: 3px;
+    height: 2px;
     -webkit-animation: Animate-HTML 3s;
             animation: Animate-HTML 3s;
     background-color: #000000;
