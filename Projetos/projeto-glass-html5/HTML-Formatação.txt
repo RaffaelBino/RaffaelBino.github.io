@@ -1,0 +1,9 @@
+<sup> - Sobre escrito
+<sub> - Sub escrito
+########################################################
+<pre>	# Preformatado
+<code>  #
+	# Faz com que apareça o codigo de alguma linguagem 
+</code> # de programação
+</pre>	# 
+#########
