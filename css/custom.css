@@ -210,7 +210,15 @@ background-size: 100% 100%;
 }
 .proj a{
     color: black;
+    font-weight: bold;
 }
 .proj a:hover{
     text-decoration: underline;
+    font-weight: bold;
+}
+.proj1,.proj2,.proj3{
+    border: black solid 1px;
+    box-shadow: inset 1px 1px 1px rgba(0,0,0,.3);
+    border-radius: 5px;
+    margin-bottom: 10px;
 }
