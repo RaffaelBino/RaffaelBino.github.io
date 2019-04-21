@@ -1,0 +1,388 @@
+/* HEIGHT 100% */
+html, body {
+    height: 100%;
+    font-family: 'Roboto', sans-serif;
+}
+
+.bloco {
+    min-height: 100%;
+    padding-top: 94px;
+}
+
+.corbtn{
+    background-color: #6f5fb4;
+}
+.btn:hover, .btn-large:hover, .btn-small:hover {
+    background-color: #6f5fb4;
+    opacity: .9;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 70px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;
+  }
+  
+  .fa:hover {
+      opacity: 0.7;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+
+  .fa-instagram {
+    background:
+    
+    left bottom
+    radial-gradient(circle farthest-corner at 35% 90%, #fec564, transparent 50%),
+    radial-gradient(circle farthest-corner at 0 140%, #fec564, transparent 50%),
+     left top
+    radial-gradient(ellipse farthest-corner at 0 -25%, #5258cf, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 20% -50%, #5258cf, transparent 50%),
+     right top
+    radial-gradient(ellipse farthest-corner at 100% 0, #893dc2, transparent 50%),
+    radial-gradient(ellipse farthest-corner at 60% -20%, #893dc2, transparent 50%),
+    right bottom
+    radial-gradient(ellipse farthest-corner at 100% 100%, #d9317a, transparent),
+
+     
+    linear-gradient(#6559ca, #bc318f 30%, #e33f5f 50%, #f77638 70%, #fec66d 100%);color: white;
+}
+
+/* Logo */
+.logo_text {
+    font-size: 0;
+    margin: 0;
+}
+
+.logo_img{
+    width: 200px;
+    margin-top: -43px;
+    
+}
+/* Nav */
+/* Menu */
+.navbar {
+    background-color: transparent;
+    transition: background 0.5s linear;
+}
+
+.navbar ul a {
+    color: #fff;
+    text-shadow:2px 2px rgba(0, 0, 0,.7) ;
+}
+
+.navbar ul a:hover {
+    background-color: transparent;
+    color: #6f5fb4;;
+    text-shadow: none;
+}
+
+.nav-color {
+    background-color: rgba(0, 0, 0,.7);
+    transition: background 0.5s linear;
+}
+
+/* SideNav */
+.sidenav {
+    background: url("../_img/ep_naturalblack.png")
+}
+.sidenav li>a {
+    color: white;
+    font-weight: 100;
+}
+
+/* Home */
+.home{
+    animation: mudarbg 20s infinite;
+    background-image: url("../_img/bg1.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.banner h2{
+    font-size: 2.5rem;
+    font-weight: 900;
+    text-decoration: uppercase; 
+    text-shadow: 4px 2px rgba(0, 0, 0,.7);
+}
+.banner p {
+    font-size: 1.2rem;
+    line-height: 1.8rem;
+    text-shadow: 2px 2px rgba(0, 0, 0,.7);
+}
+
+/* Home - Animation */
+@keyframes mudarbg {
+    40% {
+        background-image: url("../_img/bg3.jpg")
+    }
+    80% {
+        background-image: url("../_img/bg33.jpg")
+
+    }
+    100% {
+        background-image: url("../_img/bg1.jpg");
+
+    }
+}
+
+.galeria{
+    background-image: url("../_img/whitediamond_@2X.png");
+}
+.galeria h2{
+    font-size: 2.4rem;
+    color: black;
+    text-transform: uppercase;
+}
+.galeria h2::after{
+    content: ''; 
+    display: block;
+    width: 100px;
+    border-top: 1px solid gray;
+    margin: 15px auto;
+}
+.galeria p{
+    font-size: 1.4rem;
+    color: black;
+    text-transform: uppercase;
+}
+
+ul#albgal li span{
+    opacity: 0;
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    background-color: rgba(0,0,0,.3);
+    font-size: 9pt;
+    line-height: 370px;
+    padding: 5px;
+}
+
+ul#albgal li:hover{
+    transform: scale(1.5);
+}
+ul#albgal li:hover span{
+opacity: 1;
+}
+ul#albgal li{
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 5px solid white;
+    background-color: white;
+    box-shadow: 1px 1px 3px rgba(0, 0, 0, .7);
+    /*-webkit-*/transition: all .4s ease-in;
+}
+
+ul#albgal li#ft1{
+    
+    background: url('../_img/gal1.jpg') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+
+ul#albgal li#ft1:hover{
+    animation: mudarbg1 6s infinite;
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/*- Mudar Foto-*/
+@keyframes mudarbg1 {
+    
+    50% {
+        background-image: url("../_img/gal2.jpg")
+
+    }
+    100% {
+        background-image: url("../_img/gal1.jpg");
+
+    }
+}
+ul#albgal li#ft2{
+    background: url('../_img/') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albgal li#ft2:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albgal li#ft3{
+    background: url('../_img/') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albgal li#ft3:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albgal li#ft4{
+    background: url('../_img/') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albgal li#ft4:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albgal li#ft5{
+    background: url('../_img/') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albgal li#ft5:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albgal li#ft6{
+    background: url('../_img/') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albgal li#ft6:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albgal li#ft7{
+    background: url('../_img/') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albgal li#ft7:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+ul#albgal li#ft8{
+    background: url('../_img/') no-repeat;
+    background-position: 50% 50%;
+    background-size: 400px 400px;
+    background-color: white;
+}
+ul#albgal li#ft8:hover{
+    background-position: 0px 0px;
+    background-size: 200px 200px;
+}
+/* Contatos */
+.contato{
+    background-image: url("../_img/ep_naturalblack.png")
+}
+.contato h2 {
+    font-size: 2.4rem;
+    color: white;
+    text-transform: uppercase;
+}
+.contato p {
+    font-size: 1.4rem;
+    color: white;
+    text-shadow: 1px 1px gray;
+    text-transform: uppercase;
+}
+.contato h2::after{
+    content: ''; 
+    display: block;
+    width: 100px;
+    border-top: 1px solid gray;
+    margin: 15px auto;
+}
+
+/* Rodapé */
+.page-footer{
+    background-color: #232526;  /* fallback for old browsers */
+    background-color: -webkit-linear-gradient(to top, #0f2027, #203a43, #2c5264);  /* Chrome 10-25, Safari 5.1-6 */
+    background-color: linear-gradient(to top, #0f2027, #203a43, #2c5264); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.page-footer a{
+    color: #fff;
+}
+.page-footer a:hover{
+    text-decoration: underline;
+}
+
+/* Links */
+a{
+    text-decoration: none;
+}
+
+
+/* Custom */
+nav {
+    color: black;
+    background-color: #ee6e73;
+    width: 100%;
+    height: 94px;
+    line-height: 94px;
+  }
+
+  nav.nav-extended .nav-wrapper {
+    min-height: 94px;
+    height: auto;
+  }
+
+  .navbar-fixed {
+    position: absolute;
+    height: 94px;
+    z-index: 997;
+  }
+
+nav i,
+nav [class^="mdi-"], nav [class*="mdi-"],
+nav i.material-icons {
+  display: block;
+  font-size: 24px;
+  height: 94px;
+  line-height: 94px;
+}
+
+/* Media */
+@media only screen and (max-width: 480px) {
+
+}
+
+@media only screen and (min-width: 601px) {
+    .banner{
+        padding-top: 4,5rem;
+    }
+    .banner h2 {
+        font-size: 3.5rem;
+    }
+    .banner p {
+        font-size: 2.2rem;
+    }
+    .container {
+        width: 70%;
+    }
+}
+
+@media only screen and (min-width: 993px) {
+    .banner{
+        padding-top: 5rem;
+    }
+    .banner h2 {
+        font-size: 4.5rem;
+    }
+    .banner p {
+        font-size: 2.2rem;
+    }
+    .container {
+        width: 70%;
+    }
+    .contato h3{
+        font-size: 2.2rem;
+    }
+    .contato p{
+        font-size: 1.3rem;
+    }
+}
