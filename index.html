@@ -208,25 +208,26 @@
             <hr>
             <br>
             <div class="col s12 m12 l12">
-                <form action="">
-                  <div class="input-field col s12 l6">
-                    <input type="text" id="first_name" class="validate">
-                    <label for="first_name">Nome</label>
-                  </div>
-                  <div class="input-field col s12 l6">
-                    <input type="text" id="last_name" class="validate">
-                    <label for="last_name">Sobrenome</label>
-                  </div>
-                  <div class="input-field col s12 l12">
-                    <input type="email" id="email" class="validate">
-                    <label for="email" data-error="wrong" data-success="right">Email</label>
-                  </div>
-                  <div class="input-field col s12 l12">
-                    <textarea id="textarea1" class="materialize-textarea"></textarea>
-                    <label for="textarea1">Mensagem</label>
-                  </div>
+                <form method="POST" action="https://formspree.io/raffael_bino18@yahoo.com.br">
+                    <div class="input-field col s12 l6">
+                        <input type="text" id="first_name" name="Nome" class="validate">
+                        <label for="first_name">Nome</label>
+                    </div>
+                    <div class="input-field col s12 l6">
+                        <input type="text" id="last_name" name="Sobrenome" class="validate">
+                        <label for="last_name">Sobrenome</label>
+                    </div>
+                    <div class="input-field col s12 l12">
+                        <input type="email" id="email" name="Email" class="validate">
+                        <label for="email" data-error="wrong" data-success="right">Email</label>
+                    </div>
+                    <div class="input-field col s12 l12">
+                        <textarea id="textarea1" name="Mensagem" class="materialize-textarea"></textarea>
+                        <label for="textarea1">Mensagem</label>
+                    </div>
+                    <button class="btn waves-effect waves-light" type="submit">Enviar</button>
                 </form>
-                <a href="#!" class="waves-effect waves-light btn">Enviar</a>
+                
             </div>
         </div>
     </section>
