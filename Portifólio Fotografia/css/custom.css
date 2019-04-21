@@ -91,7 +91,7 @@ html, body {
 
 /* SideNav */
 .sidenav {
-    background: url("../_img/ep_naturalblack.png")
+    background: url("../img/ep_naturalblack.png")
 }
 .sidenav li>a {
     color: white;
@@ -101,7 +101,7 @@ html, body {
 /* Home */
 .home{
     animation: mudarbg 20s infinite;
-    background-image: url("../_img/bg1.jpg");
+    background-image: url("../img/bg1.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
@@ -120,20 +120,20 @@ html, body {
 /* Home - Animation */
 @keyframes mudarbg {
     40% {
-        background-image: url("../_img/bg3.jpg")
+        background-image: url("../img/bg3.jpg")
     }
     80% {
-        background-image: url("../_img/bg33.jpg")
+        background-image: url("../img/bg33.jpg")
 
     }
     100% {
-        background-image: url("../_img/bg1.jpg");
+        background-image: url("../img/bg1.jpg");
 
     }
 }
 
 .galeria{
-    background-image: url("../_img/whitediamond_@2X.png");
+    background-image: url("../img/whitediamond_@2X.png");
 }
 .galeria h2{
     font-size: 2.4rem;
@@ -182,7 +182,7 @@ ul#albgal li{
 
 ul#albgal li#ft1{
     
-    background: url('../_img/gal1.jpg') no-repeat;
+    background: url('../img/gal1.jpg') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
@@ -197,16 +197,16 @@ ul#albgal li#ft1:hover{
 @keyframes mudarbg1 {
     
     50% {
-        background-image: url("../_img/gal2.jpg")
+        background-image: url("../img/gal2.jpg")
 
     }
     100% {
-        background-image: url("../_img/gal1.jpg");
+        background-image: url("../img/gal1.jpg");
 
     }
 }
 ul#albgal li#ft2{
-    background: url('../_img/') no-repeat;
+    background: url('../img/') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
@@ -216,7 +216,7 @@ ul#albgal li#ft2:hover{
     background-size: 200px 200px;
 }
 ul#albgal li#ft3{
-    background: url('../_img/') no-repeat;
+    background: url('../img/') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
@@ -226,7 +226,7 @@ ul#albgal li#ft3:hover{
     background-size: 200px 200px;
 }
 ul#albgal li#ft4{
-    background: url('../_img/') no-repeat;
+    background: url('../img/') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
@@ -236,7 +236,7 @@ ul#albgal li#ft4:hover{
     background-size: 200px 200px;
 }
 ul#albgal li#ft5{
-    background: url('../_img/') no-repeat;
+    background: url('../img/') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
@@ -246,7 +246,7 @@ ul#albgal li#ft5:hover{
     background-size: 200px 200px;
 }
 ul#albgal li#ft6{
-    background: url('../_img/') no-repeat;
+    background: url('../img/') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
@@ -256,7 +256,7 @@ ul#albgal li#ft6:hover{
     background-size: 200px 200px;
 }
 ul#albgal li#ft7{
-    background: url('../_img/') no-repeat;
+    background: url('../img/') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
@@ -266,7 +266,7 @@ ul#albgal li#ft7:hover{
     background-size: 200px 200px;
 }
 ul#albgal li#ft8{
-    background: url('../_img/') no-repeat;
+    background: url('../img/') no-repeat;
     background-position: 50% 50%;
     background-size: 400px 400px;
     background-color: white;
@@ -277,7 +277,7 @@ ul#albgal li#ft8:hover{
 }
 /* Contatos */
 .contato{
-    background-image: url("../_img/ep_naturalblack.png")
+    background-image: url("../img/ep_naturalblack.png")
 }
 .contato h2 {
     font-size: 2.4rem;
