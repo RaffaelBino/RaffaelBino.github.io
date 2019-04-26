@@ -226,16 +226,6 @@ background-size: 100% 100%;
 .cor{
     color: #546e7a;
 }
-/* Menu */
-header{
-    
-  }
-
-  @media only screen and (max-width : 992px) {
-    header{
-      
-    }
-  }
   .navbar {
     background-color: transparent;
 }
@@ -273,4 +263,3 @@ nav i.material-icons {
 .dropdown-content li > a, .dropdown-content li > span {
     color: #546e7a;
   }
-
