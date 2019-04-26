@@ -31,7 +31,33 @@
     <link rel="stylesheet" type="text/css" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css" />
 </head>
 
+
 <body>
+    <header>
+        <div class="navbar-fixed">
+            <nav class="navbar z-depth-0">
+                <div class="nav-wrapper container">
+                    <!-- Dropdown Trigger -->
+                    <a class='dropdown-trigger right' href='#' data-target='dropdown1'><i
+                            class="material-icons cor">menu</i></a>
+
+                    <!-- Dropdown Structure -->
+                    <ul id='dropdown1' class='dropdown-content'>
+                        <li><a href="#ini">Home</a></li>
+                        <li class="divider" tabindex="-1"></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li class="divider" tabindex="-1"></li>
+                        <li><a href="#hab">Habilidades</a></li>
+                        <li class="divider" tabindex="-1"></li>
+                        <li><a href="#proj">Projetos</a></li>
+                        <li class="divider" tabindex="-1"></li>
+                        <li><a href="#ctt">Contato</a></li>
+                        <li class="divider" tabindex="-1"></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
     <!-- Inicio -->
     <section class="bloco ini scrollspy" id="ini">
         <div class="row container center">
@@ -232,30 +258,35 @@
     </section>
     <!-- Fim Contato -->
     <!-- Footer -->
-    
+
     <footer class="page-footer">
-            <div class="container">
-              <div class="row">
+        <div class="container">
+            <div class="row">
                 <div class="col l6 s12">
-                  <h5 class="white-text">Raffael Bino</h5>
-                  <p class="grey-text text-lighten-4">Imagem utilizada no começo do site foi feita por <a target="_blank" class="grey-text text-lighten-3" href="https://gratisography.com/photo/author/ryan-mcguire/">Ryan Mcguire</a></p>
+                    <h5 class="white-text">Raffael Bino</h5>
+                    <p class="grey-text text-lighten-4">Imagem utilizada no começo do site foi feita por <a
+                            target="_blank" class="grey-text text-lighten-3"
+                            href="https://gratisography.com/photo/author/ryan-mcguire/">Ryan Mcguire</a></p>
                 </div>
                 <div class="col l4 offset-l2 s12">
-                  <h5 class="white-text">Outros Contatos</h5>
-                  <ul>
-                    <li><a class="grey-text text-lighten-3" target="_blank"  href="https://www.linkedin.com/in/raffael-bino-74a688162/">LinkedIn</a></li>
-                    <li><a class="grey-text text-lighten-3" target="_blank" href="https://www.workana.com/freelancer/2b55c78bcd46c334243a3064f5a2ffc2?ref=user_dropdown">Workana</a></li>
-                  </ul>
+                    <h5 class="white-text">Outros Contatos</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" target="_blank"
+                                href="https://www.linkedin.com/in/raffael-bino-74a688162/">LinkedIn</a></li>
+                        <li><a class="grey-text text-lighten-3" target="_blank"
+                                href="https://www.workana.com/freelancer/2b55c78bcd46c334243a3064f5a2ffc2?ref=user_dropdown">Workana</a>
+                        </li>
+                    </ul>
                 </div>
-              </div>
             </div>
-            <div class="footer-copyright">
-              <div class="container">
-              © 2019 Raffael Bino
-              </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                © 2019 Raffael Bino
             </div>
-          </footer>
-              
+        </div>
+    </footer>
+
     <!-- Fim Footer -->
 
     <!-- JQUERY-->
@@ -274,6 +305,8 @@
                 scrollOffset: 0
             });
 
+            $('.dropdown-trigger').dropdown();
+            $(".not-collapse").on("click", function(e) { e.stopPropagation(); });
 
             $(".bar").each(function () {
                 $(this).find(".bar-inner").animate({
