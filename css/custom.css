@@ -293,3 +293,6 @@ nav i.material-icons {
 .credit a:hover {
   text-decoration: underline;
 }
+.page-footer a:hover{
+  text-decoration: underline;
+}
