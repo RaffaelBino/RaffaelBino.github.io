@@ -263,3 +263,9 @@ nav i.material-icons {
 .dropdown-content li > a, .dropdown-content li > span {
     color: #546e7a;
   }
+  .credit a{
+    color: black;
+  }
+  .credit a:hover{
+    text-decoration: underline;
+  }
