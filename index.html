@@ -226,19 +226,19 @@
             <div class="col s12 m12 l12">
                 <form method="POST" action="https://formspree.io/raffael_bino18@yahoo.com.br">
                     <div class="input-field col s12 l6">
-                        <input type="text" id="first_name" name="Nome" class="validate">
+                        <input type="text" id="first_name" name="Nome" class="validate" required>
                         <label for="first_name">Nome</label>
                     </div>
                     <div class="input-field col s12 l6">
-                        <input type="text" id="last_name" name="Sobrenome" class="validate">
+                        <input type="text" id="last_name" name="Sobrenome" class="validate" required>
                         <label for="last_name">Sobrenome</label>
                     </div>
                     <div class="input-field col s12 l12">
-                        <input type="email" id="email" name="Email" class="validate">
+                        <input type="email" id="email" name="Email" class="validate" required>
                         <label for="email" data-error="wrong" data-success="right">Email</label>
                     </div>
                     <div class="input-field col s12 l12">
-                        <textarea id="textarea1" name="Mensagem" class="materialize-textarea"></textarea>
+                        <textarea id="textarea1" name="Mensagem" class="materialize-textarea" required></textarea>
                         <label for="textarea1">Mensagem</label>
                     </div>
                     <button class="btn waves-effect waves-light" type="submit">Enviar</button>
