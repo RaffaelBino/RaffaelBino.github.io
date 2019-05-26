@@ -1,0 +1,104 @@
+/* HEIGHT 100% */
+html,
+body {
+  height: 100%;
+  font-family: "Roboto", sans-serif;
+}
+.navbar {
+  background-color: #0d47a1;
+  height: 145px;
+}
+h3{
+  font-weight: bold;
+}
+/* Logo  */
+/* Change bellow, if you have some problem with your logo height  */
+nav .brand-logo {
+  margin-top: 30px;
+}
+.logo {
+  width: 100px;
+  height: 80px;
+}
+/* End of Logo  */
+.bloc {
+  min-height: 100%;
+  padding-top: 1px;
+}
+/* Button color */
+.btn,
+.btn-large {
+  background-color: #d50000;
+}
+.btn:hover,
+.btn-large:hover {
+  background-color: #ff5252;
+}
+.btn:hover, .btn-large:hover, .btn-small:hover {
+  background-color: #ff5252 !important;
+}
+/* End of Button color */
+.content, .ue{
+  background-color: #f5f5f5;
+}
+.modal .modal-footer {
+  text-align: center;
+}
+.cls {
+  float: right;
+  margin: 0 10px 0 0;
+}
+.bk {
+  color: white;
+  display: block;
+  height: 90px;
+  width: 90px;
+  border-radius: 100px;
+  background-color: #0d47a1;
+  margin: 0 auto;
+}
+.mg {
+  margin-bottom: 30px;
+  word-wrap: break-word;
+  text-align: justify;
+  border: 1px solid transparent;
+  border-width: 10px;
+}
+.mgt {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  word-wrap: break-word;
+  text-align: center;
+}
+/*  Edit Image of your product or somethin  */
+.ft{
+  width: 500px;
+  height: 200px;
+}
+/* end image product  */
+/* Here you will edit the profile photo */
+.photo{
+  width: 200px;
+  height: 200px;
+  border-radius: 30px;
+}
+@media only screen and (min-width: 993px) {
+  .photo{
+    width: 200px;
+    height: 200px;
+    float: left;
+    border-radius: 30px;
+    margin-right: 40px;
+  } 
+}
+/* end edit profile photo here  */
+.collection.with-header .collection-header{
+  background-color: #f5f5f5;
+}
+.collection .collection-item{
+  background-color: #f5f5f5;
+  margin: 10px;
+}
+.page-footer, .footer-copyright{
+  background-color: #0d47a1;
+}
